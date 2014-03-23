@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{046116c5-5fef-4dbb-a3ea-2da158fda960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{6ec62f8e-b070-478e-b997-81c9e9d123f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Panels">
+      <UniqueIdentifier>{0f2c1ad4-2107-4835-8595-4f6c076cc1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Transitions">
+      <UniqueIdentifier>{0e13bea3-e870-4351-b296-bee417f405b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{703728ae-0592-4f99-b05a-448f122a6cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{b2cce2c3-0a98-497f-bb71-5261686bb894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\AnimatedSprite">
+      <UniqueIdentifier>{7a2cb732-c23f-4de3-bafa-11a7dd65b0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{00aa5962-66dc-473e-9dea-40650d89e5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Controller">
+      <UniqueIdentifier>{579cebad-50ce-40f6-8137-fb462f59a182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{b79dd11b-6f41-42b2-a53f-bb1a565ce717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Widgets">
+      <UniqueIdentifier>{5d09d732-de35-4c37-bc46-89436a44d8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Widgets\GUIWidget">
+      <UniqueIdentifier>{d0dc26a6-5244-4d13-9013-96dfd3a6d9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Events">
+      <UniqueIdentifier>{e81826e0-2d69-49a9-97d8-f36980e26b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Panels\BaseMenuPanel">
+      <UniqueIdentifier>{b8bce093-40e7-4263-81a9-f7dbef28e1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Panels\GUIPanel">
+      <UniqueIdentifier>{e15615b0-1138-470c-9586-cfde048bd16c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GraphicsController.cpp">
+      <Filter>Graphics\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsIO.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIController.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWidget.cpp">
+      <Filter>GUI\Widgets\GUIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIPanel.cpp">
+      <Filter>GUI\Panels\GUIPanel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsController.h">
+      <Filter>Graphics\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsIO.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIController.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWidget.h">
+      <Filter>GUI\Widgets\GUIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIEvents.h">
+      <Filter>GUI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIPanel.h">
+      <Filter>GUI\Panels\GUIPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIPanelID.h">
+      <Filter>GUI\Panels\GUIPanel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
