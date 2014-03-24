@@ -5,9 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Game">
-      <UniqueIdentifier>{046116c5-5fef-4dbb-a3ea-2da158fda960}</UniqueIdentifier>
-    </Filter>
     <Filter Include="GUI">
       <UniqueIdentifier>{6ec62f8e-b070-478e-b997-81c9e9d123f2}</UniqueIdentifier>
     </Filter>
@@ -50,6 +47,24 @@
     <Filter Include="GUI\Panels\GUIPanel">
       <UniqueIdentifier>{e15615b0-1138-470c-9586-cfde048bd16c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{56cd3a66-d17e-4192-91c7-5136563ae446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game">
+      <UniqueIdentifier>{046116c5-5fef-4dbb-a3ea-2da158fda960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CoreController">
+      <UniqueIdentifier>{1058e52b-d519-471e-bdda-d35cb7cd388f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Panels\SplashPanel">
+      <UniqueIdentifier>{f333a09c-b199-48fa-a844-e49c3d5af162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\InputController">
+      <UniqueIdentifier>{8c2fac6f-3d41-463d-9f25-f8b9aa462eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\IInterfacable">
+      <UniqueIdentifier>{59971a48-120e-4a6d-a238-5b6499b8c6f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -67,6 +82,12 @@
     </ClCompile>
     <ClCompile Include="GUIPanel.cpp">
       <Filter>GUI\Panels\GUIPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreController.cpp">
+      <Filter>Core\CoreController</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Core\InputController</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +111,18 @@
     </ClInclude>
     <ClInclude Include="GUIPanelID.h">
       <Filter>GUI\Panels\GUIPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreController.h">
+      <Filter>Core\CoreController</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashPanel.hpp">
+      <Filter>GUI\Panels\SplashPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Core\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="IInterfacable.h">
+      <Filter>Core\IInterfacable</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

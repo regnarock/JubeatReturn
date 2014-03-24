@@ -3,6 +3,7 @@
 #include <vector>
 #include "GUIPanelID.h"
 
+class GraphicsController;
 class GUIPanel;
 
 class GUIController
@@ -10,9 +11,10 @@ class GUIController
 private:
 	std::vector<GUIPanel *> m_panels;
 	std::vector<GUIPanel *> m_activePanels;
+	GraphicsController *m_gcPtr;
 
 public:
-	GUIController();
+	GUIController(GraphicsController *gc);
 	~GUIController();
 
 	void Render();
@@ -20,4 +22,5 @@ public:
 	void Show(GUIPANELID id);
 	void Hide(GUIPANELID id);
 	GUIPanel *Find(GUIPANELID id);
+	GUIPanel *FindActive(GUIPANELID id);
 };

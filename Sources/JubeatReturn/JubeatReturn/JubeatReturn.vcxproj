@@ -80,21 +80,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CoreController.cpp" />
     <ClCompile Include="GUIPanel.cpp" />
     <ClCompile Include="GraphicsController.cpp" />
     <ClCompile Include="GUIController.cpp" />
     <ClCompile Include="GUIWidget.cpp" />
+    <ClCompile Include="InputController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SettingsIO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CoreController.h" />
     <ClInclude Include="GUIPanel.h" />
     <ClInclude Include="GraphicsController.h" />
     <ClInclude Include="GUIController.h" />
     <ClInclude Include="GUIEvents.h" />
     <ClInclude Include="GUIPanelID.h" />
     <ClInclude Include="GUIWidget.h" />
+    <ClInclude Include="IInterfacable.h" />
+    <ClInclude Include="InputController.h" />
     <ClInclude Include="SettingsIO.h" />
+    <ClInclude Include="SplashPanel.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

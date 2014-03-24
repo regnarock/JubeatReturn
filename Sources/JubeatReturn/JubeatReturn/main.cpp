@@ -1,13 +1,10 @@
 #include <iostream>
-#include "GraphicsController.h"
+#include "CoreController.h"
 
 int main(int ac, char **av)
 {
-	GraphicsController gc;
+	CoreController cc;
 
-	gc.Init();
-	while (gc.GetWindow()->isOpen()) {
-		gc.RenderWindow();
-	}
+	cc.Run();
 	return (0);
 }

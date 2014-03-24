@@ -39,3 +39,8 @@
 /Sources/JubeatReturn/Debug/JubeatReturn.exe
 /Sources/JubeatReturn/Debug/JubeatReturn.ilk
 /Sources/JubeatReturn/Debug/JubeatReturn.pdb
+
+/Sources/JubeatReturn/ipch/jubeatreturn-eb4cb1e0/*.ipch
+
+/Sources/JubeatReturn/JubeatReturn.opensdf
+/Sources/JubeatReturn/JubeatReturn.sdf

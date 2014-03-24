@@ -1,9 +1,12 @@
+#include <iostream>
 #include "GUIPanel.h"
 
 GUIPanel::GUIPanel(GUIPANELID id)
 	: m_uid(id)
 {
-
+	#if _DEBUG
+		std::cout << "Generated panel " << id << std::endl;
+	#endif
 }
 
 GUIPanel::~GUIPanel()
